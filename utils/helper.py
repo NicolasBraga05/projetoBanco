@@ -1,6 +1,7 @@
 from datetime import date
 from datetime import datetime
 
+#formata data para string
 def date_para_str(data: date) -> str:
     return data.strftime('%d/%m/%Y')
 
